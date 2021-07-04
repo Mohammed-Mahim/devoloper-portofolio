@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Top-banner */
 h1{
     font-size: 50px;
 }
@@ -16,7 +17,7 @@ h1{
 }
 section{
     display: flex;
-
+    margin-bottom: 100px;
 }
 .top-banner{
     background: url(img/top-banner.png) no-repeat;
@@ -49,4 +50,11 @@ section{
 }
 .link-btn:hover{
     color: #000;
+}
+
+/* middle-banner */
+.middle-banner{
+    
+    background:url(img/dream-bg.png) no-repeat;
+    background-position: right 100%;
 }
