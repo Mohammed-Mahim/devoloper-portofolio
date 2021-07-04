@@ -37,4 +37,8 @@ section{
     color: #fff;
     border-radius: 5px;
     font-weight: 700;
+    transition: 0.5s all;
+}
+.link-btn:hover{
+    color: #000;
 }
