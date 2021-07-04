@@ -9,13 +9,13 @@ body{
 }
 
 /* Top-banner */
-h1{
+.top-banner h1{
     font-size: 50px;
 }
 .orange {
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -27,7 +27,7 @@ section{
     width:50%;
     padding-left: 2%;
 }
-.half-width1 p{
+.dream p{
     color: #666666;
     text-align: justify;
 }
@@ -56,5 +56,42 @@ section{
 .middle-banner{
     
     background:url(img/dream-bg.png) no-repeat;
-    background-position: right 100%;
+    background-position: right 60%;
+}
+/* experience-section */
+.experience {
+    background: url(img/exp-bg.png) no-repeat;
+    background-position: left 60%;
+}
+.experience h1{
+    font-size: 40px;
+
+}
+.exp-h3-color{
+    color:orange
+}
+.experience-child {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    border-radius:10px;
+}
+.border1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(#FA705B, #FA705B);
+    border-image-slice: 1;
+}
+.border2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    color: #666;
 }
